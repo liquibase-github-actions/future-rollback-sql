@@ -6,7 +6,7 @@ Generate the raw SQL needed to rollback undeployed changes
 ```yaml
 steps:
 - uses: actions/checkout@v3
-- uses: liquibase-github-actions/future-rollback-sql@v4.29.2
+- uses: liquibase-github-actions/future-rollback-sql@v4.30.0
   with:
     # The root changelog file
     # string
@@ -90,7 +90,7 @@ The liquibase future rollback sql action accepts all valid liquibase global opti
 ```yaml
 steps:
   - uses: actions/checkout@v3
-  - uses: liquibase-github-actions/future-rollback-sql@v4.29.2
+  - uses: liquibase-github-actions/future-rollback-sql@v4.30.0
     with:
       changelogFile: ""
       url: ""
